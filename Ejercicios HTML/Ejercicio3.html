@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>   <meta charset="utf-8"></head>
+<body>
+
+<h2>Ejemplo de decisión</h2>
+
+<p>Muestra un saludo según la hora</p>
+
+<p id="saludo"></p>
+
+<script>
+if (new Date().getHours() < 18) {
+  document.getElementById("saludo").innerHTML = "Buen día!";
+}
+else{
+    document.getElementById("saludo").innerHTML = "Buenas Noches!";
+}
+</script>
+
+</body>
+</html>
